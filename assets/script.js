@@ -5,7 +5,7 @@ menuToggle.addEventListener('click', () => {
   console.log("click");
   sidebar.classList.toggle('active');
 });
-
+//
 document.addEventListener('click', (event) => {
   const target = event.target;
   const isMenuOpen = sidebar.classList.contains('active');

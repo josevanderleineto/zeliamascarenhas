@@ -92,11 +92,14 @@
   </div>
 </section>
 <section id="contato">
-  <form action="" class="form">
+  <form action="https://formsubmit.co/zeliamascarenhas.art@gmail.com" method="POST" class="form" id="form">
+  <input type="hidden" name="_next" value="https://www.zeliamascarenhas.art//sucesso.html">
+ <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem, obrigado pelo contato e logo responderemos!">
+  <input type="hidden" name="_captcha" value="false">
     <label for="nome">Nome</label>
-    <input type="text" id="nome" class="input-field" placeholder="Nome">
+    <input type="text" id="name" class="input-field" placeholder="Nome">
     <label for="email">Email</label>
-    <input type="text" id="email" class="input-field" placeholder="Email">
+    <input name="email" type="text" id="email" class="input-field" placeholder="Email">
     <label for="mensagem">Mensagem</label>
     <textarea name="mensagem" id="mensagem" class="textarea-field" placeholder="Escreva sua mensagem"></textarea>
     <button type="submit" class="submit-button">Enviar</button>

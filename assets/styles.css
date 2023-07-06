@@ -9,7 +9,7 @@
 /* Menu*/
 
 .header {
-  background-color: #adad88;
+  background-color: #C38154;
     height: 40px;
 
 }
@@ -41,79 +41,54 @@
   .item:last-child {
     margin-right: 0;
   }
-
-    body {
-      background-color: #CFCFA3;
+/*       background-image: linear-gradient(, yellow);*/ 
+    .body {
       color: black;
+        background-image: linear-gradient(to right,#C38154, #0673);
     }
   .home-box-img img {
-    padding-left: 70px;
+    width: 200px;
+    padding-left: 50px;
+    padding-bottom: 80px;
   }
   .home-textos {
+    padding-bottom: 40px;
     font-size: 3rem;
   }
 
   
   #sobre .subtitulo {
     padding-left: 70px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
   }
+
 
   #sobre p{
-    padding-left: 70px;
-    padding-right: 200px;
+    padding-left: 80px;
+    padding-right: 90px;
     margin-bottom: 10px;
     text-align: justify;
-  }
+
+  }  
+
+  
     /*Projetos*/
-    #projetos .subtitulo {
-      padding-left: 70px;
-      padding-bottom: 30px;
-    }
-  
-    .projetos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding-right: 70px;
-      overflow: auto;
-      margin-bottom: 100px;
-    }
-  
-    .projetos-box {
-      position: relative;
-      height: 300px;
+    
+    .imagem {
+      border: solid 3px grey;
       width: 250px;
-      border: 5px solid #999999;
-      margin: 10px 15px;
-      /* Ajuste o valor para obter 10px de espaço entre as caixas */
-    }
-  
-    .projetos-box img {
-      width: 100%;
-      height: auto;
-    }
-  
-    .projetos-box .descricao {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-      margin: 0;
-    }
-  
-    .projetos-box h3 {
-      position: absolute;
-      bottom: 30px;
-      left: 10px;
-      margin: 0;
     }
 
+    .imagem:hover {
+      
+    }
+    
  /*Contatos*/
         .form {
           max-width: 70%;
           margin: 0 auto;
           padding: 20px;
-          background-color: #CFCFA3;
+           background-image: linear-gradient(to right, #C38154, #0673);
           padding-left: 10px;
         }
     
@@ -151,7 +126,6 @@
         .footer {
           height: 50px;
           text-align: center;
-          background-color: #adad88;
           height: 70px;
         }
 
@@ -169,10 +143,13 @@
 
   /* Menu mobile*/
 
+
+
 @media screen and (min-width: 768px) {
     .menu-mobile  .item-mobile{
         display: none;
     }
+    
     
 }
 
@@ -211,7 +188,7 @@
         top: 0;
         height: 100vh;
         width: 220px;
-        background-color: #adad88;
+        background-image: linear-gradient(to right, #C38154, #0673);
         color: black;
         padding: 20px;
         transform: translateX(-200px);
@@ -267,12 +244,12 @@
   /*IMG HOME*/
  
   .titulo {
-    font-size: 60pt;
+    font-size: 28pt;
     font-weight: 900;
   }
 
   .texto-home {
-    font-size: 30pt;
+    font-size: 14pt;
   }
 
   .img-home {
@@ -299,6 +276,10 @@
       font-size: 12pt;
       text-align: justify;
       padding: 30px 30px 0;
+    }
+  
+    .projetos {
+      padding-left: 50px;
     }
 
   @media screen and (max-width: 768px) {
@@ -330,7 +311,7 @@
 
     .home-textos {
       padding: 1rem;
-      font-size: 10pt;
+      font-size: 5pt;
       font-weight: 400;
       margin-top: 60px;
       text-align: justify;
@@ -349,7 +330,7 @@
     }
 
         #sobre p {
-          padding-right: 70px;
+          padding-right: 40px;
         }
 
         /*Projetos*/
@@ -366,12 +347,13 @@
   /* Ajuste o valor para obter 10px de espaço entre as caixas */
 }
 
+
+
  .projetos-box,
  .titulo-projetos {
    padding-top: 17rem;
  }
 
- 
 
   }
 

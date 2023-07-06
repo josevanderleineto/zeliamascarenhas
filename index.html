@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/styles.css">
   <title>Zelia Mascarenhas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
   <main>
   <header class="header">
 
@@ -51,14 +53,15 @@
 
       <div class="home-textos">
         <h1 class="titulo">Zélia Mascarenhras</h1>
-        <strong><p class="texto-home">Produtora Executiva</p></strong>
-        <strong><p class="texto-home">Gestora de Projetos Culturais</p></strong>
+        <strong><p class="texto-home">Produtora Executiva e Gestora de Projetos Culturais</p></strong>
+        
       </div>
   
     </div>
   </section>
 
-  <section id="sobre">
+
+  <section id="sobre" class="sobre">
     <h2 class="subtitulo">Sobre mim</h2>
       <p>Em 2021, atuei como Produtora Executiva e Coordenadora do projeto Retratos do Paraguaçu, que teve como seu objetivo
       produzir um livro que retrata os artistas visuais da cidade de Cachoeira/BA, produzido com apoio financeiro da
@@ -69,28 +72,53 @@
       <p>Ainda em 2020, tive a oportunidade de trabalhar como assessora de eventos do Geopública 2020 - O papel da Geotecnologia
       no novo normal.
       Atuando tembém como assessora de evento do IX Fórum Baiano de Economia Aplicada.</p>
-  </section>
-  <section id="projetos">
-  <h2 class="subtitulo">Projetos</h2>
-  <div class="projetos">
-    <div class="projetos-box">
-      <h3 class="titulo-projeto">Projeto 1</h3>
-      <p class="descricao">Descrição do Projeto 1</p>
-    </div>
-    <div class="projetos-box">
-      <h3 class="titulo-projeto">Projeto 2</h3>
-      <p class="descricao">Descrição do Projeto 2</p>
-    </div>
-    <div class="projetos-box">
-      <h3 class="titulo-projeto">Projeto 3</h3>
-      <p class="descricao">Descrição do Projeto 3</p>
-    </div>
-    <div class="projetos-box">
-      <h3 class="titulo-projeto">Projeto 4</h3>
-      <p class="descricao">Descrição do Projeto 4</p>
+<section id="projetos" class="projetos">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="box-projetos">
+          <img src="assets/img/autoretrato.jpeg" alt="Logo do autoretrato" class="imagem">
+          <figure>
+            <figcaption>
+              <h6>Projeto Autoretrato</h6>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="box-projetos">
+          <img src="assets/img/escoladecinema.jpeg" alt="Logo da Escola Zumbi dos Palmares" class="imagem">
+          <figure>
+            <figcaption>
+              <h6>Escola de Cinema</h6>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="box-projetos">
+          <img src="assets/img/mostra.png" alt="Logo da Mostra de Cinema Quilombola do Iguape" class="imagem">
+          <figure>
+            <figcaption>
+              <h6>Mostra de Cinema Quilombola</h6>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="box-projetos">
+          <img src="assets/img/retratosdoparaguacu.png" alt="Capa do Livro Retratos do Paraguaçu" class="imagem">
+          <figure>
+            <figcaption>
+              <h6>Retratos do Paraguaçu</h6>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
 <section id="contato">
   <form action="https://formsubmit.co/zeliamascarenhas.art@gmail.com" method="POST" class="form" id="form">
   <input type="hidden" name="_next" value="https://www.zeliamascarenhas.art//sucesso.html">
@@ -107,13 +135,10 @@
 </section>
 </section>
 
-<section class="rodape">
   <footer class="footer">
     <p>Zélia Mascarenhas</p>
     <a href="https://www.vanderleinetoweb.tech/"><p>&copy;      Desenvolvido por Vanderlei Neto</p></a>
   </footer>
-
-</section>
 
   </main>
   <script src="assets/script.js"></script>

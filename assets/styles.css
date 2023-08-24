@@ -9,7 +9,7 @@
 /* Menu*/
 
 .header {
-  background-color: #C38154;
+  background-color: #c8c88e;
     height: 40px;
 
 }
@@ -44,7 +44,7 @@
 /*       background-image: linear-gradient(, yellow);*/ 
     .body {
       color: black;
-        background-image: linear-gradient(to right,#C38154, #0673);
+        background: #CFCFA3;
     }
   .home-box-img img {
     width: 200px;
@@ -77,10 +77,12 @@
     .imagem {
       border: solid 3px grey;
       width: 250px;
+
     }
 
     .imagem:hover {
-      
+      transform: scale(1.1); 
+
     }
     
  /*Contatos*/
@@ -88,7 +90,7 @@
           max-width: 70%;
           margin: 0 auto;
           padding: 20px;
-           background-image: linear-gradient(to right, #C38154, #0673);
+           background-image: #c8c88e;
           padding-left: 10px;
         }
     
@@ -110,18 +112,22 @@
           height: 150px;
         }
         .submit-button {
-          background-color: black;
+          background-color: rgb(14, 10, 10);
           color: #FFFFFF;
           padding: 10px 20px;
           border: none;
           border-radius: 4px;
           font-size: 16px;
           cursor: pointer;
+          width: 100%;
+
         }
     
         .submit-button:hover {
           background-color: rgb(109, 103, 97);
         }
+
+       
 
         .footer {
           height: 50px;
